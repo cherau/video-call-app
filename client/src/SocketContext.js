@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import Peer from "simple-peer";
 
 const SocketContext = createContext();
-const socket = io("https://tmmz7-5000.sse.codesandbox.io/");
+const socket = io("https://video-chat-app-cj.herokuapp.com/");
 // http://localhost:8080
 // http://localhost:3000
 // https://tmmz7-3000.sse.codesandbox.io/
